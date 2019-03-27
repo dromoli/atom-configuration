@@ -1,0 +1,40 @@
+"*":
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+    ]
+    scopeBlacklist: [
+      ".text.plain"
+    ]
+  core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/diegoromoli/"
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "birds-of-paradise-theme"
+    ]
+  editor:
+    fontFamily: "Menlo; Default;"
+    fontSize: 12
+    lineHeight: 1.2
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "8cd91be3-15e0-453e-80bb-695eae1a3e64"
+  script:
+    ignoreSelection: true
+  "vim-mode-plus":
+    allowMoveToOffScreenColumnOnScreenLineMotion: false
+    ignoreCaseForFind: true
+    ignoreCaseForSearch: true
+  welcome:
+    showOnStartup: false
